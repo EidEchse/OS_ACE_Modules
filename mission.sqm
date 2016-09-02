@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=5;
+		nextID=10;
 	};
 	class Camera
 	{
@@ -764,7 +764,7 @@ class Mission
 					name="Basic";
 					class Entities
 					{
-						items=25;
+						items=24;
 						class Item0
 						{
 							dataType="Logic";
@@ -3358,60 +3358,6 @@ class Mission
 								nAttributes=7;
 							};
 						};
-						class Item24
-						{
-							dataType="Logic";
-							class PositionInfo
-							{
-								position[]={21904,14.905972,6584};
-								angles[]={0.0079936078,0,6.2458701};
-							};
-							id=31;
-							type="ACE_ModuleRespawn";
-							atlOffset=-0.022661209;
-							class CustomAttributes
-							{
-								class Attribute0
-								{
-									property="ACE_ModuleRespawn_RemoveDeadBodiesDisconnected";
-									expression="_this setVariable ['RemoveDeadBodiesDisconnected',_value,true];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								class Attribute1
-								{
-									property="ACE_ModuleRespawn_SavePreDeathGear";
-									expression="_this setVariable ['SavePreDeathGear',_value,true];";
-									class Value
-									{
-										class data
-										{
-											class type
-											{
-												type[]=
-												{
-													"BOOL"
-												};
-											};
-											value=1;
-										};
-									};
-								};
-								nAttributes=2;
-							};
-						};
 					};
 					id=6;
 					atlOffset=67.050018;
@@ -3712,7 +3658,7 @@ class Mission
 				};
 			};
 			id=0;
-			atlOffset=102.23604;
+			atlOffset=25.109497;
 		};
 		class Item1
 		{
