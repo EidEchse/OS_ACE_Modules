@@ -12,7 +12,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=10;
+		nextID=15;
 	};
 	class Camera
 	{
@@ -1403,7 +1403,7 @@ class Mission
 													"BOOL"
 												};
 											};
-											value=0;
+											value=1;
 										};
 									};
 								};
@@ -2375,7 +2375,7 @@ class Mission
 													"BOOL"
 												};
 											};
-											value=0;
+											value=1;
 										};
 									};
 								};
@@ -3171,7 +3171,7 @@ class Mission
 													"SCALAR"
 												};
 											};
-											value=5;
+											value=100;
 										};
 									};
 								};
@@ -3360,7 +3360,6 @@ class Mission
 						};
 					};
 					id=6;
-					atlOffset=67.050018;
 				};
 				class Item2
 				{
@@ -3658,7 +3657,6 @@ class Mission
 				};
 			};
 			id=0;
-			atlOffset=25.109497;
 		};
 		class Item1
 		{
